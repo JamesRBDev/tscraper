@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TScraper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="box">
+        <input id="website-url" type="url" placeholder="Paste a website URL">
+        <button value="Send" id="submit" onclick="submitClick()">Submit</button>
+
+        <hr>
+
+        <div id="display">
+            <p id="email-display">Email(s):</p>
+            <p id="phone-display">Phone #(s):</p>
+        </div>
+        
+        <script defer src="/socket.io/socket.io.js"></script>
+        <script defer src="script.js"></script>
+    </div>
+</body>
+</html>

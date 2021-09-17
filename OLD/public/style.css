@@ -1,0 +1,39 @@
+html, body {
+    background-color: black;
+}
+
+#box {
+    width:            250px;
+    height:           auto;
+    position:         absolute;
+    left:             50%;
+    transform:        translateX(-50%);
+    padding:          25px;
+    border:           2px solid white;
+    background-color: black;
+    color:            white;
+}
+
+input {
+    outline: none;
+    border: none;
+    background-color: black;
+    color:            white;
+    border: 2px solid white;
+    padding: 5px;
+}
+
+button {
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+}
+
+hr {
+    margin-top:  16px;
+    margin-left: -25px;
+    width:       calc(100% + 50px);
+}
